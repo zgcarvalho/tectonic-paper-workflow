@@ -7,19 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-<<<<<<< HEAD
         uses: actions/checkout@v3
-=======
         uses: actions
->>>>>>> refs/remotes/origin/main
         with:
           fetch-depth: 0
 
       - name: Get and run tectonic
-<<<<<<< HEAD
         uses: actions/cache@v3
-=======
->>>>>>> refs/remotes/origin/main
         run: |
           curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net |sh
           tectonic -X build
