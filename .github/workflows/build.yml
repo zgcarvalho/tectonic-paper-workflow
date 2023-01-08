@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 0
 
       - name: Get and run tectonic
-        uses: actions/cache@v3
+        # uses: actions/cache@v3
         run: |
           curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net |sh
           tectonic -X build
