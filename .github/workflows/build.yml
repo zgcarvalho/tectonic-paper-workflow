@@ -20,7 +20,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: pdfs
-          path: build/default/default.pdf
+          path: build/*
 
       # - name: Tectonic
       #   uses: wtfjoke/setup-tectonic@v2
