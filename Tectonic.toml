@@ -5,3 +5,8 @@ bundle = 'https://data1.fullyjustified.net/tlextras-2022.0r0.tar'
 [[output]]
 name = 'default'
 type = 'pdf'
+
+[[output]]
+name = 'diff'
+type = 'pdf'
+index = 'index-diffHEAD~1.tex'
